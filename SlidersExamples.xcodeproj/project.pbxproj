@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0B124C2E977931004A8191 /* Sliders in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0B124B2E977931004A8191 /* Sliders */; };
 		8967B0E024425025007173AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967B0DF24425025007173AF /* AppDelegate.swift */; };
 		8967B0E224425025007173AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967B0E124425025007173AF /* SceneDelegate.swift */; };
 		8967B0E424425025007173AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967B0E324425025007173AF /* ContentView.swift */; };
 		8967B0E62442502A007173AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8967B0E52442502A007173AF /* Assets.xcassets */; };
 		8967B0E92442502A007173AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8967B0E82442502A007173AF /* Preview Assets.xcassets */; };
 		8967B0EC2442502A007173AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8967B0EA2442502A007173AF /* LaunchScreen.storyboard */; };
-		8967B0F52442508C007173AF /* Sliders in Frameworks */ = {isa = PBXBuildFile; productRef = 8967B0F42442508C007173AF /* Sliders */; };
 		8967B0F7244250CE007173AF /* JoystickExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967B0F6244250CE007173AF /* JoystickExample.swift */; };
 		89ED1594244257950057DFBB /* LSliderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED1593244257950057DFBB /* LSliderExample.swift */; };
 		89ED1596244266E20057DFBB /* ActivityRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED1595244266E20057DFBB /* ActivityRings.swift */; };
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8967B0F52442508C007173AF /* Sliders in Frameworks */,
+				3C0B124C2E977931004A8191 /* Sliders in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +165,7 @@
 			);
 			name = SlidersExamples;
 			packageProductDependencies = (
-				8967B0F42442508C007173AF /* Sliders */,
+				3C0B124B2E977931004A8191 /* Sliders */,
 			);
 			productName = SlidersExamples;
 			productReference = 8967B0DC24425025007173AF /* SlidersExamples.app */;
@@ -196,7 +196,7 @@
 			);
 			mainGroup = 8967B0D324425024007173AF;
 			packageReferences = (
-				8967B0F32442508C007173AF /* XCRemoteSwiftPackageReference "Sliders" */,
+				3C0B124A2E977931004A8191 /* XCRemoteSwiftPackageReference "SwiftUI-Sliders" */,
 			);
 			productRefGroup = 8967B0DD24425025007173AF /* Products */;
 			projectDirPath = "";
@@ -378,14 +378,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SlidersExamples/Preview Content\"";
-				DEVELOPMENT_TEAM = CJ3HCZ6WWQ;
+				DEVELOPMENT_TEAM = V5W5LAAYWJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SlidersExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = BrownandSons.SlidersExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = HeyRoseKay.SlidersExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,14 +398,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SlidersExamples/Preview Content\"";
-				DEVELOPMENT_TEAM = CJ3HCZ6WWQ;
+				DEVELOPMENT_TEAM = V5W5LAAYWJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SlidersExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = BrownandSons.SlidersExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = HeyRoseKay.SlidersExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,20 +436,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8967B0F32442508C007173AF /* XCRemoteSwiftPackageReference "Sliders" */ = {
+		3C0B124A2E977931004A8191 /* XCRemoteSwiftPackageReference "SwiftUI-Sliders" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kieranb662/Sliders.git";
+			repositoryURL = "https://github.com/HeyRoseKay/SwiftUI-Sliders/";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8967B0F42442508C007173AF /* Sliders */ = {
+		3C0B124B2E977931004A8191 /* Sliders */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8967B0F32442508C007173AF /* XCRemoteSwiftPackageReference "Sliders" */;
+			package = 3C0B124A2E977931004A8191 /* XCRemoteSwiftPackageReference "SwiftUI-Sliders" */;
 			productName = Sliders;
 		};
 /* End XCSwiftPackageProductDependency section */
