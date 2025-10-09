@@ -1,5 +1,7 @@
 # SlidersExamples
-A companion project to explore the [Sliders](https://github.com/kieranb662/Sliders) SwiftUI Library
+A companion project to explore the [Sliders](https://github.com/HeyRoseKay/SwiftUI-Sliders) SwiftUI Library
+
+(Forked from [Kieran](https://github.com/kieranb662))
 
 <p align="center">
     <img src="https://github.com/kieranb662/SlidersExamples/blob/master/Sliders%20Media/ActivityRings.gif" alt="Activity Rings Gif" height=300 />
