@@ -67,7 +67,9 @@ struct RGBSliderStyle: LSliderStyle {
                 Capsule()
                     .stroke(Color.white)
                     .frame(width: proxy.size.width + self.strokeWidth)
+                    .offset(x: -self.strokeWidth/2, y: 0)
                     .rotationEffect(configuration.angle)
+                    .shadow(radius: 2)
             })
     }
 }
